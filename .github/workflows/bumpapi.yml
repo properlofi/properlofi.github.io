@@ -1,0 +1,14 @@
+name: bump Github API
+
+on:
+    workflow_dispatch:
+
+jobs:
+    bump-api:
+        runs-on: ubuntu-latest
+        steps:
+          - name: hoge
+            run: |
+              echo 'hello'
+
+    
